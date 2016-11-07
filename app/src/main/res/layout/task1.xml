@@ -1,0 +1,35 @@
+<!--Modify this layout to be like this layout -->
+<!--https://drive.google.com/file/d/0Bze57z-MBV6ycmo2NWxOY1IwSVE/view?usp=sharing-->
+<!--Hint : use layout weight -->
+<!--then using Margin and padding to be like this -->
+<!--https://drive.google.com/file/d/0Bze57z-MBV6yRDRWcEJDYzUtQms/view?usp=sharing-->
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ocean"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="You're invited!"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Bonfire at the beach"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
